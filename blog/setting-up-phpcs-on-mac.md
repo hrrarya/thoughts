@@ -22,7 +22,7 @@ composer --version
 
 If both are installed correctly, the terminal will display the respective version numbers.
 
-![php and composer version image](https://prnt.sc/ZJwyAsAHYz3w)
+![php and composer version image](../assets/images/setting-up-phpcs-on-your-mac/php-composer-version.png)
 
 ## Install PHPCS
 
@@ -42,7 +42,7 @@ cd .composer
 curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
 ```
 
-![Download PHPCS](https://prnt.sc/7T0ZqpZ-QAbF)
+![Download PHPCS](../assets/images/setting-up-phpcs-on-your-mac/download-phpcs.png)
 
 - This will download PHPCS into your ~/.composer folder.
 - Check if PHPCS is installed by running the following command in the ~/.composer folder:
@@ -80,7 +80,7 @@ alias phpcs='php /Users/arya/.composer/phpcs.phar'
 5. Save the file by pressing `cmd+o`, then enter, and exit with `cmd+x`.
 6. Close and reopen the terminal. Type `phpcs -h` to ensure PHPCS is available globally.
 
-![phpcs installation](https://prnt.sc/oAgP5_ZBcxYs)
+![phpcs installation](../assets/images/setting-up-phpcs-on-your-mac/phpcs-installation.png)
 
 PHPCS is now globally accessible.
 
@@ -95,11 +95,11 @@ phpcs index.php
 PHPCS will display a list of errors and warnings, guiding you on improving your code.
 
 Here's My index.php file's code
-![simple php file](https://prnt.sc/iuDKmyQjskS8)
+![simple php file](../assets/images/setting-up-phpcs-on-your-mac/simple-php-file.png)
 
 Yes, that's simple, it will show you errors and warning list line by line in the terminal,
 
-![phpcs errors and warnings](https://prnt.sc/-24cYjMZsWyA)
+![phpcs errors and warnings](../assets/images/setting-up-phpcs-on-your-mac/phpcs-error-warnings.png)
 
 This feedback from PHPCS not only points out errors but also suggests ways to enhance your code.
 
