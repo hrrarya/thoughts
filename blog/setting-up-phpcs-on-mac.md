@@ -3,7 +3,7 @@
 <meta name="author" content="hrrarya">
 <meta property="og:title" content="Setting up PHPCS on your Mac">
 <meta property="og:description" content="PHPCS is an open-source command-line tool designed to identify code style violations based on defined coding standards">
-<meta property="og:image" content="../assets/images/setting-up-phpcs-on-your-mac/setting-up-phpcs.png">
+<meta property="og:image" content="https://github.com/hrrarya/thoughts/blob/main/assets/images/setting-up-phpcs-on-your-mac/setting-up-phpcs.png">
 
 ![Setting up PHPCS on your Mac](../assets/images/setting-up-phpcs-on-your-mac/setting-up-phpcs.png)
 
